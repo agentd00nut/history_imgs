@@ -28,8 +28,11 @@ Flags
 ======
 
 *img_saver.sh*
+
 `-o` The output directory for the saved images... otherwise it saves to the run dir of the script
+
 `-s` Optional.  Seperator string to place between the url and the imgs save path.
+
 `-t` Optional.  Timeout... if a url doesn't respond in under this amount of time just skip it.  Recommended.
 
 Examples
