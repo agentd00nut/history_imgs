@@ -45,6 +45,26 @@ Getting images for firefox history while saving the url and image name with a go
 TODO
 ====
 
-Save the title of the web page along with the url when pulling data from the web browsers.
-    Use this title in the name of the imgs and increment the name when there are duplicates.
+Save the title of the web page along with the url when pulling data from the web browsers. Use this title in the name of the imgs and increment the name when there are duplicates.
 
+Have scripts change to their path on disk instead of writing to relative paths which could be anywhere... As in don't run these if you aren't in the scripts dir.
+
+Clean up the code.
+
+Write a "run" script that simplifies how to use img_saver.sh
+
+Write usage `-h` flags for each script.
+
+Support more than just modern OSX default paths for the browsers.
+
+Support custom / all profiles for browsers.
+
+Some sort of GUI would be neat and may help simplify things.
+
+Use phantomJS or some other, faster, method to get images.
+
+Parallelize image fetching.
+
+Allow users to pass args directly to `wkhtmltoimage` incase they know what they are doing.
+
+Learn how to use git!
