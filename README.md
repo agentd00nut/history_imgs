@@ -4,6 +4,9 @@ History Imgs
 wkhtmltoimage powered tool to save image of each page in your browsers history.
 Easily find that page you can't remember the name of by browsing images of your history!
 
+Currently only works on osx install since i haven't looked up the default paths for the history
+file locations on other distros.  Sounds looks like that'd be a great thing for someone to do!
+
 How to Install
 ==============
 
@@ -16,10 +19,8 @@ How to Use it
 
 Run `fetch_history.sh`.  This is a jenky little script that will try and dump your chrome and firefox histories to a digestable format in the /data folder.
 
-It's pretty dumb right now... if you see `Error: table is locked` or a similar message make sure to *QUIT* your firefox / chrome application.
+If you see `Error: table is locked` or a similar message make sure to *QUIT* your firefox / chrome application.
 Don't just close the thing, right click, quit (osx).
-
-It 100% tells you everything went fine even if it didn't so, for prudence check the data/ files after you run it to see if they are empty.
 
 If it all goes well then you can cat in a data file into `img_saver.sh` make sure to give it the `-o` flag to specify the output dir.
 
